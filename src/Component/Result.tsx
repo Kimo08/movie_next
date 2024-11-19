@@ -1,6 +1,6 @@
 import React from "react";
-import { ResultsProps } from "../../types";
 import Card from "./Card";
+import { ResultsProps } from "../../types";
 
 const Result = ({ results }: ResultsProps) => {
   return (
@@ -13,6 +13,7 @@ const Result = ({ results }: ResultsProps) => {
             | number
             | bigint
             | boolean
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             | React.ReactElement<any, string | React.JSXElementConstructor<any>>
             | Iterable<React.ReactNode>
             | React.ReactPortal
