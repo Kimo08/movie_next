@@ -9,7 +9,7 @@ The movie app is an application where you can view and get all the movies you kn
 - Typescript
 - Tailwind css
 
-# 3. Feautures
+# 3. Features
 
 - **Homepage** : Where you get to see a lot of movies both trending and not trending, latest and old.
 
