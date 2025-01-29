@@ -1,7 +1,7 @@
 # 1. Introduction
 
 The movie app is an application where you can view and get all the movies you know and do not know.
-![movie website](public/logon.svg)
+![movie website](<public/images/Screenshot (3).png>)
 
 # 2. Tech Stack
 
@@ -11,11 +11,11 @@ The movie app is an application where you can view and get all the movies you kn
 
 # 3. Feautures
 
-- Homepage : Where you get to see a lot of movies both trending and not trending, latest and old.
+- **Homepage** : Where you get to see a lot of movies both trending and not trending, latest and old.
 
-- Moviepage : You get to see the details of a particular movie,, its name, release date , ratings and so on.
+- **Moviepage** : You get to see the details of a particular movie,, its name, release date , ratings and so on.
 
-- Responsiveness: Ensures the application adapts seamlessly to various screen sizes and devices, providing a consistent user experience across desktop, tablet, and mobile platforms
+- **Responsiveness**: Ensures the application adapts seamlessly to various screen sizes and devices, providing a consistent user experience across desktop, tablet, and mobile platforms
 
 # 4. Quick Start
 
