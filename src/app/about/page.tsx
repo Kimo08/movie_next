@@ -7,7 +7,7 @@ const About = () => {
       <p>
         Welcome to our movie database website! we are a team of passionate movie
         enthusiasts who have come together to create a one-stop destination for
-        all your movie-related needs{" "}
+        all your movie-related needs.{" "}
       </p>
     </div>
   );

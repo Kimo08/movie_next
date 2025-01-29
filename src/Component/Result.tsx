@@ -8,18 +8,17 @@ const Result = ({ results }: ResultsProps) => {
       {results.map(
         (result: {
           id: React.Key | null | undefined;
-          original_title:
-            | string
-            | number
-            | bigint
-            | boolean
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            | React.ReactElement<any, string | React.JSXElementConstructor<any>>
-            | Iterable<React.ReactNode>
-            | React.ReactPortal
-            | Promise<React.AwaitedReactNode>
-            | null
-            | undefined;
+          original_title: string;
+          // | number
+          // | bigint
+          // | boolean
+          // // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          // | React.ReactElement<any, string | React.JSXElementConstructor<any>>
+          // | Iterable<React.ReactNode>
+          // | React.ReactPortal
+          // | Promise<React.AwaitedReactNode>
+          // | null
+          // | undefined;
         }) => (
           <Card key={result.id} result={result} />
         )
